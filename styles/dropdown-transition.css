@@ -1,0 +1,16 @@
+.dropdown__block {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.dropdown {
+    height: 100%;
+}
+
+.dropdown.active .dropdown__block {
+    height: auto;
+    padding: 2rem 0;
+}
