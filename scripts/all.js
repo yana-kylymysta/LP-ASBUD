@@ -68,6 +68,7 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
              if(el.classList.contains('active')){
                 el.classList.remove('active');
              } })
+        document.querySelector('.lSGallery').remove()
         enableScroll();
     }
 
