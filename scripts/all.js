@@ -278,10 +278,10 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
                     }
                 ]
             });
-            $('.lSPrev').click(function () {
+            $('.mylSAction .lSPrev').click(function () {
                 slider.goToPrevSlide();
             });
-            $('.lSNext').click(function () {
+            $('.mylSAction .lSNext').click(function () {
                 slider.goToNextSlide();
             });
         });
@@ -335,6 +335,14 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
                     slideMargin:0,
                     enableDrag: false,
                     currentPagerPosition:'left',
+                     responsive: [
+                        {
+                            breakpoint: 650,
+                            settings: {
+                                controls: false,
+                            }
+                        }
+                ]
                 });  
             });       
      disableScroll();
@@ -352,4 +360,37 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
            openPopUp(currentTarget)
         })
     })
+
+//SEND EMAIL
+$(document).ready(function() {
+     $('form.contact__form').submit(function(e) {
+        e.preventDefault(); 
+
+        var formData = $(this).serialize(); 
+        var form = this; 
+
+        $.ajax({
+            url: './scripts/send_mail.php',
+            type: 'POST',
+            data: formData,
+            success: function(response) {
+                console.log(response); 
+       
+                $('.contact__button').addClass('mail-btn');
+                  setTimeout(function() {
+                    $('.contact__button').removeClass('mail-btn');
+                    form.reset();
+                }, 2000);
+
+            },
+            error: function(xhr, status, error) {
+                console.log(error); 
+            }
+        });
+    });
+});
+
+
+
+
 
