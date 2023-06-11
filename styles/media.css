@@ -324,4 +324,7 @@
         .projects__container {
             padding: 0;
         }
+    .about__text {
+        padding: 0;
+    }
 }

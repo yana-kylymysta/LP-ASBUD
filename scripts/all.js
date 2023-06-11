@@ -97,7 +97,7 @@ const projects = [
                         data-src="./images/projects/03-Elewacja-Dębowe-Tarasy/02.jpg">
                             <img src="./images/projects/03-Elewacja-Dębowe-Tarasy/02.jpg">
                     </div>
-                    <div class="popUp__slide"
+                    <div class="popUp__slide vertical-img"
                         data-thumb="./images/projects/03-Elewacja-Dębowe-Tarasy/03.jpg"
                         data-src="./images/projects/03-Elewacja-Dębowe-Tarasy/03.jpg">
                             <img src="./images/projects/03-Elewacja-Dębowe-Tarasy/03.jpg">
@@ -137,7 +137,7 @@ const projects = [
                                 data-src="./images/projects/05-Przebudowa-głównych-schodów-zewnętrznych/01.jpg">
                                 <img src="./images/projects/05-Przebudowa-głównych-schodów-zewnętrznych/01.jpg">
                             </div>
-                            <div class="popUp__slide" 
+                            <div class="popUp__slide vertical-img" 
                                 data-thumb="./images/projects/05-Przebudowa-głównych-schodów-zewnętrznych/02.jpg"
                                 data-src="./images/projects/05-Przebudowa-głównych-schodów-zewnętrznych/02.jpg">
                                 <img src="./images/projects/05-Przebudowa-głównych-schodów-zewnętrznych/02.jpg">
@@ -177,7 +177,7 @@ const projects = [
                                 data-src="./images/projects/07-Remont-oraz-rozbudowa-budynku-PCPR-w-Ropczycach-o-szyb-windowy/01.jpg">
                                 <img src="./images/projects/07-Remont-oraz-rozbudowa-budynku-PCPR-w-Ropczycach-o-szyb-windowy/01.jpg">
                             </div>
-                            <div class="popUp__slide" 
+                            <div class="popUp__slide vertical-img" 
                                 data-thumb="./images/projects/07-Remont-oraz-rozbudowa-budynku-PCPR-w-Ropczycach-o-szyb-windowy/02.jpg"
                                 data-src="./images/projects/07-Remont-oraz-rozbudowa-budynku-PCPR-w-Ropczycach-o-szyb-windowy/02.jpg">
                                 <img src="./images/projects/07-Remont-oraz-rozbudowa-budynku-PCPR-w-Ropczycach-o-szyb-windowy/02.jpg">
@@ -207,7 +207,7 @@ const projects = [
                                 data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg">
                                 <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg">
                             </div>
-                            <div class="popUp__slide"
+                            <div class="popUp__slide vertical-img"
                                 data-thumb="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/02.jpg"
                                 data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/02.jpg">
                                 <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/02.jpg">
