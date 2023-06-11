@@ -275,6 +275,7 @@
         }
     .about__signature {
         max-width: 200px;
+        margin: 0 auto;
     }
 }
 
@@ -293,9 +294,6 @@
         object-fit: cover;
         object-position: center 80%;
         height: 250px;
-    }
-    .title {
-        margin-bottom: 1rem;
     }
     .about__signature img {
         margin: 2rem auto 0 auto;

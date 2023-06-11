@@ -328,6 +328,10 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
     
         $(document).ready(function() {
                 $('.popUp__project.active').lightSlider({
+                    onBeforeSlide: function (el) {
+                        var img = el.find('li:nth-child('+el.getCurrentSlideCount()+') img');
+                            img.attr('src', img.attr('data-src'));
+                    },
                     gallery:true,
                     item:1,
                     loop:true,
@@ -335,9 +339,14 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
                     slideMargin:0,
                     enableDrag: false,
                     currentPagerPosition:'left',
+                    // onSliderLoad: function(el) {
+                    //     el.lightGallery({
+                    //         selector: '.popUp__project.active .lslide'
+                    //     });
+                    // },
                      responsive: [
                         {
-                            breakpoint: 650,
+                            breakpoint: 700,
                             settings: {
                                 controls: false,
                             }
