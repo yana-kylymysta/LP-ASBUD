@@ -68,6 +68,8 @@
 
 .lSPager.lSGallery {
     margin: 5px auto !important;
+    display: flex;
+    justify-content: center;
 }
 
 /****END SLIDER*****/
@@ -139,13 +141,13 @@
 }
 
 .lSGallery li {
-    width: 80px !important;
-    height: 60px !important;
+    width: 60px !important;
+    height: 40px !important;
 }
 
 .lSGallery li img {
-    width: 80px !important;
-    height: 60px !important;
+    width: 60px !important;
+    height: 40px !important;
     object-fit: cover !important;
 }
 
