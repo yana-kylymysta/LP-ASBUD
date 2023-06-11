@@ -8,26 +8,26 @@ const projects = [
     {
         id: "01",
         code: `<div class="popUp__project active" data-project="01">
-                <div class="popUp__slide" 
+                <div class="popUp__slide vertical-img" 
                     data-thumb="./images/projects/02-Elewacja-Dębowe-Apartamęty/01.jpg" data-src="./images/projects/02-Elewacja-Dębowe-Apartamęty/01.jpg">
                         <img src="./images/projects/02-Elewacja-Dębowe-Apartamęty/01.jpg">
                 </div>
-                <div class="popUp__slide" 
+                <div class="popUp__slide vertical-img" 
                     data-thumb="./images/projects/02-Elewacja-Dębowe-Apartamęty/02.jpg"
                     data-src="./images/projects/02-Elewacja-Dębowe-Apartamęty/02.jpg">
                         <img src="./images/projects/02-Elewacja-Dębowe-Apartamęty/02.jpg">
                 </div>
-                <div class="popUp__slide" 
+                <div class="popUp__slide vertical-img" 
                     data-thumb="./images/projects/02-Elewacja-Dębowe-Apartamęty/03.jpg"
                     data-src="./images/projects/02-Elewacja-Dębowe-Apartamęty/03.jpg">
                         <img src="./images/projects/02-Elewacja-Dębowe-Apartamęty/03.jpg">
                 </div>
-                <div class="popUp__slide" 
+                <div class="popUp__slide vertical-img" 
                     data-thumb="./images/projects/02-Elewacja-Dębowe-Apartamęty/04.jpg"
                     data-src="./images/projects/02-Elewacja-Dębowe-Apartamęty/04.jpg">
                         <img src="./images/projects/02-Elewacja-Dębowe-Apartamęty/04.jpg">
                 </div>     
-                <div class="popUp__slide" 
+                <div class="popUp__slide vertical-img" 
                     data-thumb="./images/projects/02-Elewacja-Dębowe-Apartamęty/05.jpg"
                     data-src="./images/projects/02-Elewacja-Dębowe-Apartamęty/05.jpg">
                     <img src="./images/projects/02-Elewacja-Dębowe-Apartamęty/05.jpg">
@@ -152,17 +152,17 @@ const projects = [
     {
         id: "06",
         code: `<div class="popUp__project active" data-project="06">
-                            <div class="popUp__slide" 
+                            <div class="popUp__slide vertical-img" 
                                 data-thumb="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/01.jpg"
                                 data-src="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/01.jpg">
                                 <img src="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/01.jpg">
                             </div>
-                            <div class="popUp__slide" 
+                            <div class="popUp__slide vertical-img" 
                                 data-thumb="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/02.jpg"
                                 data-src="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/02.jpg">
                                 <img src="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/02.jpg">
                             </div>
-                            <div class="popUp__slide" 
+                            <div class="popUp__slide vertical-img" 
                                 data-thumb="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/03.jpg"
                                 data-src="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/03.jpg">
                                 <img src="./images/projects/06-Przebudowa-sali-sportowej-na-salę-audio-wizualną/03.jpg">
@@ -202,17 +202,12 @@ const projects = [
     {
         id: "09",
         code: ` <div class="popUp__project active" data-project="09">
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg"
-                                data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg">
-                                <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg">
-                            </div>
                             <div class="popUp__slide vertical-img"
                                 data-thumb="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/02.jpg"
                                 data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/02.jpg">
                                 <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/02.jpg">
                             </div>
-                            <div class="popUp__slide"
+                            <div class="popUp__slide vertical-img"
                                 data-thumb="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/03.jpg"
                                 data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/03.jpg">
                                 <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/03.jpg">
@@ -221,6 +216,11 @@ const projects = [
                                 data-thumb="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/04.jpg"
                                 data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/04.jpg">
                                 <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/04.jpg">
+                            </div>
+                             <div class="popUp__slide vertical-img"
+                                data-thumb="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg"
+                                data-src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg">
+                                <img src="./images/projects/09-Rozbudowa-Specjalnego-Ośrodka-Szkolno-Wychowawczego-w-Ropczycach-o-szyb-windowy/01.jpg">
                             </div>
                         </div>`
     },
@@ -232,7 +232,7 @@ const projects = [
                                 data-src="./images/projects/10-Rozbudowa-Domu-Pomocy-Społecznej-w-Rudzie-o-szyb-windowy-wraz-z-korytarzem-o-konstrukcji-aluminiowej/01.jpg">
                                 <img src="./images/projects/10-Rozbudowa-Domu-Pomocy-Społecznej-w-Rudzie-o-szyb-windowy-wraz-z-korytarzem-o-konstrukcji-aluminiowej/01.jpg">
                             </div>
-                            <div class="popUp__slide"
+                            <div class="popUp__slide vertical-img"
                                 data-thumb="./images/projects/10-Rozbudowa-Domu-Pomocy-Społecznej-w-Rudzie-o-szyb-windowy-wraz-z-korytarzem-o-konstrukcji-aluminiowej/02.jpg"
                                 data-src="./images/projects/10-Rozbudowa-Domu-Pomocy-Społecznej-w-Rudzie-o-szyb-windowy-wraz-z-korytarzem-o-konstrukcji-aluminiowej/02.jpg">
                                 <img src="./images/projects/10-Rozbudowa-Domu-Pomocy-Społecznej-w-Rudzie-o-szyb-windowy-wraz-z-korytarzem-o-konstrukcji-aluminiowej/02.jpg">
