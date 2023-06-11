@@ -222,6 +222,9 @@
     text-align: center;
     margin-bottom: 3rem;
 }
+.contact__subtitle {
+    text-align: center;
+}
 .company__buttons {
     gap: 1rem;
     margin: 2rem 0 0 0;
@@ -238,17 +241,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    * {
-        font-size: 14px;
-    }
+
     .container {
         width: 92%;}
     .main__wrapper {
         height: 70vh;}
-    section,
-    footer {
-        padding: 2rem 0 2rem 0;
-    }
+
     .main {
         background-position: 50% bottom;
     }
@@ -275,6 +273,9 @@
         .contact__content {
             padding: 0;
         }
+    .about__signature {
+        max-width: 200px;
+    }
 }
 
 @media screen and (max-width: 600px) {
