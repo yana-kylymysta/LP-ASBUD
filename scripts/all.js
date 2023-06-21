@@ -321,6 +321,11 @@ hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
     }
 
     const openPopUp = (project) => {
+        const loader = document.createElement('div');
+        loader.classList.add('loader__wrapper');
+        loader.innerHTML = '<div class="loader"></div>';
+        popUp.innerHTML = loader;
+
         popUp.classList.add('active');
         let template = `<div class="popUp__bg">
                             <div class="popUp__block">
