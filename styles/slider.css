@@ -131,7 +131,8 @@
     display: block;
 }
 
-.popUp__project img {
+.popUp__project img,
+.popUp__project iframe  {
     max-width: 1200px;
     width: 100%;
     height: 400px;
@@ -182,7 +183,8 @@
         margin-bottom: 6px;
     }
 
-    .popUp__project img {
+    .popUp__project img,
+    .popUp__project iframe  {
         height: 240px;
     }
 }
