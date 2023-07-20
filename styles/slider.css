@@ -141,6 +141,15 @@
     object-position: center;
     border-radius: 6px;
 }
+
+.popUp__slide iframe {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
 .vertical-img img{
     object-fit: contain !important;
 }
