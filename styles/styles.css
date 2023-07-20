@@ -357,10 +357,8 @@ footer {
     width: 3.5%;
    }
 
-.offer__before-title {
-    margin-top: -6rem;
-  }
 .offer__subtitle {
+    margin-top: -6rem;
     white-space: nowrap;
     writing-mode: vertical-lr;
     font-family: 'Goldman';
@@ -372,6 +370,7 @@ footer {
 .offer__hr {
     display: block;
     width: 5px;
+    height: calc(100% - 17rem);
     position: absolute;
     bottom: 0;
     left: 35%;

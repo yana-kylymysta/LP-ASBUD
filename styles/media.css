@@ -172,7 +172,8 @@
     .menu__item a:hover {
         margin-left: 0.5rem;
     }
-    .about__signature img {
+    .about__signature {
+        font-size: 1rem;
         margin: 3rem auto 0 auto;
     }
     .about__container {

@@ -256,11 +256,6 @@ const projects = [
     }
 ]
 
-//line
-let subtitleHeight = subtitle.offsetHeight;
-let offerBeforeHeight = offerBefore.offsetHeight;
-hr.style.height = `calc(${offerBeforeHeight - subtitleHeight}px + 4rem)`;
-
 //slider
   $(document).ready(function () {
            let slider = $(".projects__slider").lightSlider({
