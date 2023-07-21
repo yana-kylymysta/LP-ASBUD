@@ -141,12 +141,15 @@
     border-radius: 6px;
 }
 
-.popUp__video {
-    max-width: 100%;
-    min-width: 100%;
+.popUp__slide {
     width: 100%;
     height: 400px;
 }
+
+.popUp__video {
+    width: 100%;
+    height: 400px;
+} 
 .vertical-img img{
     object-fit: contain !important;
 }
