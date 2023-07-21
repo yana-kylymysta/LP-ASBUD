@@ -191,7 +191,7 @@
     }
 
     .popUp__project img,
-    .popUp__video
+    ..popUp__project iframe,
     .popUp__video {
         height: 240px;
         width: 100%;
