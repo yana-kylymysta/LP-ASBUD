@@ -173,7 +173,7 @@
         margin-left: 0.5rem;
     }
     .about__signature {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         margin: 3rem auto 0 auto;
     }
     .about__container {
@@ -274,10 +274,6 @@
         .contact__content {
             padding: 0;
         }
-    .about__signature {
-        max-width: 200px;
-        margin: 0 auto;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -296,7 +292,7 @@
         object-position: center 80%;
         height: 250px;
     }
-    .about__signature img {
+    .about__signature {
         margin: 2rem auto 0 auto;
     }
     .offer__title::before {

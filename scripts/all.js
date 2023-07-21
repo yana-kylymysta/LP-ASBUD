@@ -128,9 +128,9 @@ const projects = [
                                 <img src="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/03.jpg">
                             </div>
                             <div class="popUp__slide"
-                                data-thumb="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/04.jpg"
-                                data-src="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/04.jpg">
-                                <img src="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/04.jpg">
+                                data-thumb="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/04.JPG"
+                                data-src="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/04.JPG">
+                                <img src="./images/projects/01-Budowa-budynku-Ochotniczej-Straży-Pożarnej-w-Małej/04.JPG">
                             </div>
                         </div>`
     },

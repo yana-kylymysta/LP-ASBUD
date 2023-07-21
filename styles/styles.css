@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Montserrat:wght@400;600;700;800&family=Zen+Dots&display=swap');
 
-@font-face {
+/* @font-face {
     font-family: 'Miama Nueva';
     src: url('../fonts/MiamaNueva.woff2') format('woff2'),
         url('../fonts/MiamaNueva.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Shlapak Script';
+    src: url('Shlapak Script.otf') format('opentype');
 }
 
 * {
@@ -291,8 +296,8 @@ footer {
 }
 
 .about__signature {
-    font-family: 'Miama Nueva', sans-serif;
-    font-size: 1.4rem;
+    font-family: 'Shlapak Script', cursive; 
+    font-size: 2rem;
     color: #2C3B43;
     margin: 4rem auto 0 auto;
 }
