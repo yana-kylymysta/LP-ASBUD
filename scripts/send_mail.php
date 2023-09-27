@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $headers = "From: $fromName <asbudtomasz@wp.pl>\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    if (mail("zozulyaweb@gmail.com", $subject, $message, $headers)) {
+    if (mail("asbudtomasz@wp.pl", $subject, $message, $headers)) {
         echo "Well";
     } else {
         echo "Error";

@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Montserrat:wght@400;600;700;800&family=Zen+Dots&display=swap');
 
-/* @font-face {
-    font-family: 'Miama Nueva';
-    src: url('../fonts/MiamaNueva.woff2') format('woff2'),
-        url('../fonts/MiamaNueva.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 @font-face {
     font-family: 'Shlapak Script';
     src: url('Shlapak Script.otf') format('opentype');
@@ -265,6 +257,7 @@ footer {
     "img signature"
     "img .";
     grid-column-gap: 5rem;
+    padding: 0 8%;
    }
 .about__img img {
     width: 100%;
@@ -363,11 +356,11 @@ footer {
    }
 
 .offer__subtitle {
-    margin-top: -6rem;
+    margin-top: -5rem;
     white-space: nowrap;
     writing-mode: vertical-lr;
     font-family: 'Goldman';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     transform: rotate(-180deg);
 }
@@ -375,7 +368,7 @@ footer {
 .offer__hr {
     display: block;
     width: 5px;
-    height: calc(100% - 17rem);
+    height: calc(100% - 15rem);
     position: absolute;
     bottom: 0;
     left: 35%;
@@ -883,3 +876,12 @@ footer {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    .main__btn {
+            background: #EF7F1B !important;
+            color: #2B2A28 !important;
+    }
+    .why {
+        background-image: none !important;
+    }
+}
