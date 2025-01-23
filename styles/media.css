@@ -31,9 +31,9 @@
         padding: 4rem 0;
     }
 
-    .container {
+    /* .container {
         width: 92%;
-    }
+    } */
 
     .card {
         max-width: 300px;
@@ -289,9 +289,9 @@
 
 @media screen and (max-width: 768px) {
 
-    .container {
+    /* .container {
         width: 92%;
-    }
+    } */
 
     .main {
         background-position: 50% bottom;

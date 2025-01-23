@@ -5,6 +5,14 @@
     src: url('Shlapak Script.otf') format('opentype');
 }
 
+:root {
+    --swiper-theme-color: #EF7F1B;
+    --swiper-pagination-bullet-inactive-color: #2B2A28;
+    --container: 86%;
+}
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+}
 * {
     padding: 0;
     margin: 0;
@@ -91,14 +99,14 @@ footer {
 }
 
 .container {
-    width: 86%;
+    width: var(--container);
     max-width: 1720px;
     margin: 0 auto;
 }
 
 
 .title {
-    font-family: 'Goldman', cursive;
+    font-family: 'Goldman', sans-serif;
     font-size: 2rem;
     line-height: 1;
     text-transform: uppercase;
@@ -454,7 +462,6 @@ footer {
 /******************/
 
 .project {
-    max-width: 500px;
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -884,4 +891,10 @@ footer {
     .why {
         background-image: none !important;
     }
+}
+
+@media screen and (max-width: 1380px) {
+   :root {
+    --container: 92%;
+   }
 }

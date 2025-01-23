@@ -7,7 +7,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="Budowa obiektów mieszkalnych, biurowych, przemysłowych i sportowych, od remontów i ociepleń budynków po generalne wykonawstwo.">
     <title>ASBUD Andrzej Stasiowski</title>
-    <link rel="stylesheet" href="./styles/lightslider.css" type="text/css">
+    <!-- <link rel="stylesheet" href="./styles/lightslider.css" type="text/css"> -->
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css" type="text/css">
     <link rel="stylesheet" href="./styles/slider.css" type="text/css">
     <link rel="stylesheet" href="./styles/media.css" type="text/css">
@@ -203,77 +204,79 @@
         <section class="projects scroll-opacity" id="projects">
             <div class="projects__container container">
                 <h2 class="projects__title title text-center">REALIZACJE</h2>
-                <div class="projects__slider">
-                    <div class="project" data-slide="01" style="background-image: url(./images/project1.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Elewacja Dębowe Apartamenty Dębica</h4>
-                            <div class="project__btn"></div>
+                <div class="projects__wrapper">
+                    <div class="projects__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="project swiper-slide" data-slide="01" style="background-image: url(./images/project1.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Elewacja Dębowe Apartamenty Dębica</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="02" style="background-image: url(./images/project2.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Budowa i przebudowa kompleksu boisk szkolnej infrastruktury sportowej Powiatu Ropczycko - Sędziszowskiego</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide"  data-slide="03" style="background-image: url(./images/project3.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Elewacja Dębowe Tarasy Dębica</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="04" style="background-image: url(./images/projects/01/04.jpg)">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Budowa budynku Ochotniczej Straży Pożarnej w Małej</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="05" style="background-image: url(./images/projects/05/01.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Przebudowa głównych schodów zewnętrznych w Ratuszu oraz roboty budowlane w budynku</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="06" style="background-image: url(./images/projects/06/01.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Przebudowa sali sportowej na salę audio-wizualną w budynku ZS im. J Zwierza w Ropczycach</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="07" style="background-image: url(./images/projects/07/01.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Remont oraz rozbudowa budynku PCPR w Ropczycach o szyb windowy</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="08" style="background-image: url(./images/projects/08/01.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Rozbudowa Domu Kultury w Kamionce o salę wielofunkcyjną</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="09" style="background-image: url(./images/projects/09/03.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Rozbudowa Domu Pomocy Społecznej w Rudzie o szyb windowy wraz z korytarzem o konstrukcji aluminiowej</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <div class="project swiper-slide" data-slide="10" style="background-image: url(./images/projects/10/02.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Rozbudowa Specjalnego Ośrodka Szkolno-Wychowawczego w Ropczycach o szyb windowy</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="project swiper-slide" data-slide="11" style="background-image: url(./images/projects/10/02.jpg);">
+                                <div class="broject__bottom">
+                                    <h4 class="project__name">Rozbudowa Specjalnego Ośrodka Szkolno-Wychowawczego w Ropczycach o szyb windowy</h4>
+                                    <div class="project__btn"></div>
+                                </div>
+                            </div> -->
                         </div>
-                    </div>
-                    <div class="project" data-slide="02" style="background-image: url(./images/project2.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Budowa i przebudowa kompleksu boisk szkolnej infrastruktury sportowej Powiatu Ropczycko - Sędziszowskiego</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project"  data-slide="03" style="background-image: url(./images/project3.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Elewacja Dębowe Tarasy Dębica</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                     <div class="project" data-slide="04" style="background-image: url(./images/projects/01/04.jpg)">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Budowa budynku Ochotniczej Straży Pożarnej w Małej</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="05" style="background-image: url(./images/projects/05/01.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Przebudowa głównych schodów zewnętrznych w Ratuszu oraz roboty budowlane w budynku</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="06" style="background-image: url(./images/projects/06/01.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Przebudowa sali sportowej na salę audio-wizualną w budynku ZS im. J Zwierza w Ropczycach</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="07" style="background-image: url(./images/projects/07/01.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Remont oraz rozbudowa budynku PCPR w Ropczycach o szyb windowy</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="08" style="background-image: url(./images/projects/08/01.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Rozbudowa Domu Kultury w Kamionce o salę wielofunkcyjną</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="09" style="background-image: url(./images/projects/09/03.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Rozbudowa Domu Pomocy Społecznej w Rudzie o szyb windowy wraz z korytarzem o konstrukcji aluminiowej</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="10" style="background-image: url(./images/projects/10/02.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Rozbudowa Specjalnego Ośrodka Szkolno-Wychowawczego w Ropczycach o szyb windowy</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                    <div class="project" data-slide="11" style="background-image: url(./images/projects/10/02.jpg);">
-                        <div class="broject__bottom">
-                            <h4 class="project__name">Rozbudowa Specjalnego Ośrodka Szkolno-Wychowawczego w Ropczycach o szyb windowy</h4>
-                            <div class="project__btn"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="projects__arrows">
-                    <div class="mylSAction">
-                        <a class="lSPrev"></a> <a class="lSNext"></a>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev swiper-button"></div>
+                        <div class="swiper-button-next swiper-button"></div>
                     </div>
                 </div>
             </div> 
@@ -357,7 +360,8 @@
     <script src="./scripts/scroll-animation.js"></script>
     <script src="./scripts/burger-menu.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="scripts/lightslider.js"> </script>
+    <!-- <script src="scripts/lightslider.js"> </script> -->
+    <script src="./scripts/swiper-bundle.min.js"></script>
     <script src="./scripts/all.js"></script>
 </body>
 </html>

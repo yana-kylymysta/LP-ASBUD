@@ -7,285 +7,239 @@ const slider = document.querySelectorAll('.project');
 const projects = [
     {
         id: "01",
-        code: `<div class="popUp__project active" data-project="01">
-                <div class="popUp__slide vertical-img" 
-                    data-thumb="./images/projects/02/01.jpg" data-src="./images/projects/02/01.jpg">
-                        <img src="./images/projects/02/01.jpg">
+        code: `<div class="swiper-wrapper popUp__project active" data-project="01">
+                <div class="popUp__slide swiper-slide vertical-img">
+                        <img src="./images/projects/02/01.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 </div>
-                <div class="popUp__slide vertical-img" 
-                    data-thumb="./images/projects/02/02.jpg"
-                    data-src="./images/projects/02/02.jpg">
-                        <img src="./images/projects/02/02.jpg">
+                <div class="popUp__slide swiper-slide vertical-img">
+                        <img src="./images/projects/02/02.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 </div>
-                <div class="popUp__slide vertical-img" 
-                    data-thumb="./images/projects/02/03.jpg"
-                    data-src="./images/projects/02/03.jpg">
-                        <img src="./images/projects/02/03.jpg">
+                <div class="popUp__slide swiper-slide vertical-img">
+                        <img src="./images/projects/02/03.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 </div>
-                <div class="popUp__slide vertical-img" 
-                    data-thumb="./images/projects/02/04.jpg"
-                    data-src="./images/projects/02/04.jpg">
-                        <img src="./images/projects/02/04.jpg">
+                <div class="popUp__slide swiper-slide vertical-img">
+                        <img src="./images/projects/02/04.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 </div>     
-                <div class="popUp__slide vertical-img" 
-                    data-thumb="./images/projects/02/05.jpg"
-                    data-src="./images/projects/02/05.jpg">
-                    <img src="./images/projects/02/05.jpg">
+                <div class="popUp__slide swiper-slide vertical-img">
+                    <img src="./images/projects/02/05.jpg" loading="lazy">
+                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 </div>            
             </div>`
     }, 
     {
         id: "02",
-        code: `<div class="popUp__project active" data-project="02">
-                    <div class="popUp__slide" 
+        code: `<div class="swiper-wrapper popUp__project active" data-project="02">
+                    <div class="popUp__slide swiper-slide" 
                             data-thumb="./images/projects/04/01.jpg"
-                            data-src="./images/projects/04/01.jpg">
+                            data-src="./images/projects/04/01.jpg" >
                             <iframe class="popUp__video" width="100%" height="100%" src="https://www.youtube.com/embed/SGPyZWQg4cs" title="Budowa i modernizacja boisk szkolnych Powiatu Ropczycko-Sędziszowskiego" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div class="popUp__slide" 
-                        data-thumb="./images/projects/04/01.jpg"
-                        data-src="./images/projects/04/01.jpg">
-                            <img src="./images/projects/04/01.jpg">
+                    <div class="popUp__slide swiper-slide" >
+                            <img src="./images/projects/04/01.jpg" loading="lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
-                    <div class="popUp__slide" 
-                        data-thumb="./images/projects/04/02.jpg"
-                        data-src="./images/projects/04/02.jpg">
-                            <img src="./images/projects/04/02.jpg">
+                    <div class="popUp__slide swiper-slide">
+                            <img src="./images/projects/04/02.jpg" loading="lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                         </div>
-                        <div class="popUp__slide" 
-                            data-thumb="./images/projects/04/03.jpg"
-                            data-src="./images/projects/04/03.jpg">
-                                <img src="./images/projects/04/03.jpg">
+                        <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/04/03.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                         </div>
-                        <div class="popUp__slide" 
-                            data-thumb="./images/projects/04/04.jpg"
-                            data-src="./images/projects/04/04.jpg">
-                                <img src="./images/projects/04/04.jpg">
+                        <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/04/04.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                         </div>
-                        <div class="popUp__slide" 
-                            data-thumb="./images/projects/04/05.jpg"
-                            data-src="./images/projects/04/05.jpg">
-                                <img src="./images/projects/04/05.jpg">
+                        <div class="popUp__slide swiper-slide" >
+                                <img src="./images/projects/04/05.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                         </div>
-                        <div class="popUp__slide" 
-                            data-thumb="./images/projects/04/06.jpg"
-                            data-src="./images/projects/04/06.jpg">
-                                <img src="./images/projects/04/06.jpg">
+                        <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/04/06.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                         </div>
-                        <div class="popUp__slide" 
-                            data-thumb="./images/projects/04/07.jpg"
-                            data-src="./images/projects/04/07.jpg">
-                                <img src="./images/projects/04/07.jpg">
+                        <div class="popUp__slide swiper-slide" >
+                                <img src="./images/projects/04/07.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide" 
-                                data-thumb="./images/projects/04/08.jpg"
-                                data-src="./images/projects/04/08.jpg">
-                                    <img src="./images/projects/04/08.jpg">
+                            <div class="popUp__slide swiper-slide" >
+                                <img src="./images/projects/04/08.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide" 
-                                data-thumb="./images/projects/04/09.jpg"
-                                data-src="./images/projects/04/09.jpg">
-                                    <img src="./images/projects/04/09.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/04/09.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                     </div>`
     },
     {
         id: "03",
-        code: `<div class="popUp__project active" data-project="03">
-                    <div class="popUp__slide"
-                        data-thumb="./images/projects/03/01.jpg"
-                        data-src="./images/projects/03/01.jpg">
-                            <img src="./images/projects/03/01.jpg">
+        code: `<div class="swiper-wrapper popUp__project active" data-project="03">
+                    <div class="popUp__slide swiper-slide">
+                        <img src="./images/projects/03/01.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
-                    <div class="popUp__slide"
-                        data-thumb="./images/projects/03/02.jpg"
-                        data-src="./images/projects/03/02.jpg">
-                            <img src="./images/projects/03/02.jpg">
+                    <div class="popUp__slide swiper-slide">
+                        <img src="./images/projects/03/02.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
-                    <div class="popUp__slide vertical-img"
-                        data-thumb="./images/projects/03/03.jpg"
-                        data-src="./images/projects/03/03.jpg">
-                            <img src="./images/projects/03/03.jpg">
+                    <div class="popUp__slide swiper-slide vertical-img">
+                        <img src="./images/projects/03/03.jpg" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                 </div>`
     },
     {
         id: "04",
-        code: `<div class="popUp__project active" data-project="04">
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/01/01.jpg"
-                                data-src="./images/projects/01/01.jpg">
-                                <img src="./images/projects/01/01.jpg">
+        code: `<div class="swiper-wrapper popUp__project active" data-project="04">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/01/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/01/02.jpg"
-                                data-src="./images/projects/01/02.jpg">
-                                <img src="./images/projects/01/02.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/01/02.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/01/03.jpg"
-                                data-src="./images/projects/01/03.jpg">
-                                <img src="./images/projects/01/03.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/01/03.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/01/04.jpg"
-                                data-src="./images/projects/01/04.jpg">
-                                <img src="./images/projects/01/04.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/01/04.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     },
     {
         id: "05",
-        code:  `<div class="popUp__project active" data-project="05">
-                            <div class="popUp__slide" 
-                                data-thumb="./images/projects/05/01.jpg"
-                                data-src="./images/projects/05/01.jpg">
-                                <img src="./images/projects/05/01.jpg">
+        code:  `<div class="swiper-wrapper popUp__project active" data-project="05">
+                            <div class="popUp__slide swiper-slide" >
+                                <img src="./images/projects/05/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide vertical-img" 
-                                data-thumb="./images/projects/05/02.jpg"
-                                data-src="./images/projects/05/02.jpg">
-                                <img src="./images/projects/05/02.jpg">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/05/02.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide" 
-                                data-thumb="./images/projects/05/03.jpg"
-                                data-src="./images/projects/05/03.jpg">
-                                <img src="./images/projects/05/03.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/05/03.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     },
     {
         id: "06",
-        code: `<div class="popUp__project active" data-project="06">
-                            <div class="popUp__slide vertical-img" 
-                                data-thumb="./images/projects/06/01.jpg"
-                                data-src="./images/projects/06/01.jpg">
-                                <img src="./images/projects/06/01.jpg">
+        code: `<div class="swiper-wrapper popUp__project active" data-project="06">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/06/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide vertical-img" 
-                                data-thumb="./images/projects/06/02.jpg"
-                                data-src="./images/projects/06/02.jpg">
-                                <img src="./images/projects/06/02.jpg">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/06/02.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide vertical-img" 
-                                data-thumb="./images/projects/06/03.jpg"
-                                data-src="./images/projects/06/03.jpg">
-                                <img src="./images/projects/06/03.jpg">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/06/03.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     },
     {
         id: "07",
-        code: `<div class="popUp__project active" data-project="07">
-                            <div class="popUp__slide" 
-                                data-thumb="./images/projects/07/01.jpg"
-                                data-src="./images/projects/07/01.jpg">
-                                <img src="./images/projects/07/01.jpg">
+        code: `<div class="swiper-wrapper popUp__project active" data-project="07">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/07/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide vertical-img" 
-                                data-thumb="./images/projects/07/02.jpg"
-                                data-src="./images/projects/07/02.jpg">
-                                <img src="./images/projects/07/02.jpg">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/07/02.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     },
     {
         id: "08",
-        code: ` <div class="popUp__project active" data-project="08">
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/08/01.jpg"
-                                data-src="./images/projects/08/01.jpg">
-                                <img src="./images/projects/08/01.jpg">
+        code: ` <div class="swiper-wrapper popUp__project active" data-project="08">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/08/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/08/02.jpg"
-                                data-src="./images/projects/08/02.jpg">
-                                <img src="./images/projects/08/02.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/08/02.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     },
     {
         id: "09",
-        code: ` <div class="popUp__project active" data-project="09">
-                            <div class="popUp__slide vertical-img"
-                                data-thumb="./images/projects/09/02.jpg"
-                                data-src="./images/projects/09/02.jpg">
-                                <img src="./images/projects/09/02.jpg">
+        code: ` <div class="swiper-wrapper popUp__project active" data-project="09">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/09/02.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide vertical-img"
-                                data-thumb="./images/projects/09/03.jpg"
-                                data-src="./images/projects/09/03.jpg">
-                                <img src="./images/projects/09/03.jpg">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/09/03.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/09/04.jpg"
-                                data-src="./images/projects/09/04.jpg">
-                                <img src="./images/projects/09/04.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/09/04.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                             <div class="popUp__slide vertical-img"
-                                data-thumb="./images/projects/09/01.jpg"
-                                data-src="./images/projects/09/01.jpg">
-                                <img src="./images/projects/09/01.jpg">
+                             <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/09/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     },
     {
         id: "10",
-        code: `<div class="popUp__project active" data-project="10">
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/10/01.jpg"
-                                data-src="./images/projects/10/01.jpg">
-                                <img src="./images/projects/10/01.jpg">
+        code: `<div class="swiper-wrapper popUp__project active" data-project="10">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/10/01.jpg" loading="lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide vertical-img"
-                                data-thumb="./images/projects/10/02.jpg"
-                                data-src="./images/projects/10/02.jpg">
-                                <img src="./images/projects/10/02.jpg">
+                            <div class="popUp__slide swiper-slide vertical-img">
+                                <img src="./images/projects/10/02.jpg" loading="lazy" >
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/10/03.jpg"
-                                data-src="./images/projects/10/03.jpg">
-                                <img src="./images/projects/10/03.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/10/03.jpg" loading="lazy" >
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
-                            <div class="popUp__slide"
-                                data-thumb="./images/projects/10/04.jpg"
-                                data-src="./images/projects/10/04.jpg">
-                                <img src="./images/projects/10/04.jpg">
+                            <div class="popUp__slide swiper-slide">
+                                <img src="./images/projects/10/04.jpg" loading="lazy" >
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                             </div>
                         </div>`
     }
 ]
 
-//slider
-  $(document).ready(function () {
-           let slider = $(".projects__slider").lightSlider({
-                item: 3,
-                loop: false,
-                controls: false,
-                slideMargin: 14,
-                responsive: [
-                    {
-                        breakpoint: 1070,
-                        settings: {
-                            item: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 750,
-                        settings: {
-                            item: 1,
-                        }
-                    }
-                ]
-            });
-            $('.mylSAction .lSPrev').click(function () {
-                slider.goToPrevSlide();
-            });
-            $('.mylSAction .lSNext').click(function () {
-                slider.goToNextSlide();
-            });
-        });
+const swiper = new Swiper('.projects__slider', {
+  spaceBetween: 16,
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+   breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 18,
 
+             },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+            navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+             },
+            }
+});
 
 ////POP UP
     const disableScroll = () => {
@@ -326,39 +280,50 @@ const projects = [
                             <div class="popUp__block">
                                 <div class="popUp__scroll">
                                     <div class="popUp__close" onclick="closeWindow()">&#10006;</div>
-                                    <div class="popUp__slider">`
-        projects.forEach(el =>el.id === project.dataset.slide && (template += el.code));
-        template +=`</div></div></div></div>`
+                                    <div class="popUp__slider-wrapper">
+                                    <div class="popUp__slider swiper">`
+                                        projects.forEach(el =>el.id === project.dataset.slide && (template += el.code));
+                            template +=
+                                    `<div class="swiper-button-prev swiper-button"></div>
+                                    <div class="swiper-button-next swiper-button"></div>
+                                </div>
+                               <div thumbsSlider="" class="swiper popUp__slider-gallery">`
+                                    projects.forEach(el =>el.id === project.dataset.slide && (template += el.code));
+                                 `</div>
+                    </div></div></div></div>`
         popUp.innerHTML = template;
-    
-        $(document).ready(function() {
-                $('.popUp__project.active').lightSlider({
-                    onBeforeSlide: function (el) {
-                        var img = el.find('li:nth-child('+el.getCurrentSlideCount()+') img');
-                            img.attr('src', img.attr('data-src'));
-                    },
-                    gallery:true,
-                    item:1,
-                    loop:true,
-                    thumbItem:9,
-                    slideMargin:0,
-                    enableDrag: false,
-                    currentPagerPosition:'left',
-                    // onSliderLoad: function(el) {
-                    //     el.lightGallery({
-                    //         selector: '.popUp__project.active .lslide'
-                    //     });
-                    // },
-                     responsive: [
-                        {
-                            breakpoint: 700,
-                            settings: {
-                                controls: false,
-                            }
-                        }
-                ]
-                });  
-            });       
+        var popUpSliderGallery = new Swiper(".popUp__slider-gallery", {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+            breakpoints: {
+                550: {
+                   slidesPerView: 5,
+                },
+                768: {
+                   slidesPerView: 6,
+                },
+                1024: {
+                   slidesPerView: 7,
+                },
+                1220: {
+                   slidesPerView: 8,
+                },
+            },
+        });
+        var popUpSlider = new Swiper('.popUp__slider', {
+            spaceBetween: 16,
+            lazy: true,
+            thumbs: {
+                swiper: popUpSliderGallery,  
+                },
+            navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    }
+            });
+  
      disableScroll();
     }
 
