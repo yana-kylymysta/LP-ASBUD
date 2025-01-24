@@ -116,6 +116,7 @@
     margin: 0 auto;
     max-width: 1200px;
     height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 6px;
@@ -144,6 +145,7 @@
   }
 .vertical-img img{
     object-fit: contain !important;
+    width: auto;
 }
 
 .popUp__slider .swiper-button-next:after,

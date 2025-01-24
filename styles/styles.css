@@ -210,14 +210,14 @@ footer {
 .main__title,
 .main__title span,
 .title-font {
-    font-family: 'Goldman', cursive;
+    font-family: 'Goldman', sans-serif;
     font-size: 3.4rem;
     line-height: 1.1;
     text-transform: uppercase;
     color: #fff;
 }
 .main__subtitle {
-    font-family: 'Goldman', cursive;
+    font-family: 'Goldman', sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #fff;
@@ -225,6 +225,7 @@ footer {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .main__btn {
+    display: inline-block;
     background: #EF7F1B;
     font-weight: 700;
     text-transform: uppercase;
@@ -446,7 +447,22 @@ footer {
     left: 0;
     transform: translate(-2.3rem, -50%);
 }
-
+.item__head .item__hover {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.item__head:hover .item__hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: rgba(43,42,40,0.92);
+    color: #fff;
+    padding: 1rem 1rem 1rem 2.7rem;
+    font-size: 1rem;
+}
 .item__hr {
     width: 55%;
     height: 0.2rem;
@@ -711,27 +727,22 @@ footer {
 /**************/
 .title-font,
 .title-font span {
-    font-family: 'Zen Dots', cursive !important;
+    font-family: 'Zen Dots', sans-serif !important;
     display: inline-block;
     font-size: 3rem;
 }
-.orang-text {
+.orang-text,
+.orang-text span{
     color: #EF7F1B !important;
 }
 
 .text-center {
     text-align: center;
 }
-.scroll-opacity {
-    opacity: 0;
-}
-
-.element-show {
-    opacity: 1;
-    -webkit-transition: opacity 0.8s;
-    -o-transition: opacity 0.8s;
-    transition: opacity 0.8s;
-}
+/* .scroll-opacity {
+    display: block;
+    visibility: visible;
+} */
 
 .invalidInput,
 .invalidInput:invalid {
@@ -846,7 +857,7 @@ footer {
     }
 }
 
-.scale-up-hor-left {
+/* .scale-up-hor-left {
     -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -881,7 +892,7 @@ footer {
         -webkit-transform-origin: 0% 0%;
         transform-origin: 0% 0%;
     }
-}
+} */
 
 @media (prefers-color-scheme: dark) {
     .main__btn {
