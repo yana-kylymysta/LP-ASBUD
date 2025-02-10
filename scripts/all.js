@@ -33,7 +33,7 @@ const projects = [
     {
         id: "02",
         code: `<div class="swiper-wrapper popUp__project active" data-project="02">
-                    <div class="popUp__slide swiper-slide" 
+                    <div class="popUp__slide popUp__slide-video swiper-slide" 
                             data-thumb="./images/projects/04/01.jpg"
                             data-src="./images/projects/04/01.jpg" >
                             <iframe class="popUp__video" width="100%" height="100%" src="https://www.youtube.com/embed/SGPyZWQg4cs" title="Budowa i modernizacja boisk szkolnych Powiatu Ropczycko-Sędziszowskiego" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
